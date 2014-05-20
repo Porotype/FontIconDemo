@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "fonticondemo.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in fonticondemo.scss */
+.fonticondemo {
+  @include addons;
+  @include fonticondemo;
+}
